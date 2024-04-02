@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hmpg1Tv8c8gIgFVlL2WlPHN/9pjHh0yeKPvE3PsqEzEeKjTyBhEUEkqoBkmGPl45sp/QgWi1wbb/xQQZnhmL+A==",
+  "dgSpecHash": "J578h0dqadKPxg+QFHVuR768018HAD9YCCkJBXyWni6fhD1TqLuev5rJL5QhBHrBB6Cwp0h9DpHmSZMyKeMFCw==",
   "success": true,
   "projectFilePath": "C:\\Blog\\Blog\\Blog\\Blog\\Blog.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Lily\\.nuget\\packages\\jquery\\1.8.0\\jquery.1.8.0.nupkg.sha512",
+    "C:\\Users\\Lily\\.nuget\\packages\\jquery.validation\\1.8.0.1\\jquery.validation.1.8.0.1.nupkg.sha512",
+    "C:\\Users\\Lily\\.nuget\\packages\\microsoft.jquery.unobtrusive.validation\\4.0.0\\microsoft.jquery.unobtrusive.validation.4.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
