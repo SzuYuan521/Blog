@@ -1,9 +1,14 @@
 using Blog.Applications.ArticleService;
+using Blog.Applications.Auth;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews(); //此網站服務(Service)，註冊(添加)MVC這個功能
-builder.Services.AddTransient<IArticleService, ArticleService>(); //註冊客製化介面
+//此網站服務(Service)，註冊(添加)MVC這個功能
+builder.Services.AddControllersWithViews();
+
+ //註冊客製化介面
+builder.Services.AddTransient<IArticleService, ArticleService>();
+builder.Services.AddTransient<IAuthService, AuthService>();
 
 var app = builder.Build();
 app.MapControllerRoute(
