@@ -1,5 +1,6 @@
 using Blog.Applications.ArticleService;
 using Blog.Applications.Auth;
+using Blog.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,9 @@ builder.Services.AddTransient<IArticleService, ArticleService>();
 builder.Services.AddTransient<IAuthService, AuthService>();
 
 var app = builder.Build();
+
+app.UseMiddleware<ExceptionMiddleware>();
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index/id?}"); //啟動MVC路由功能, 傳入的網址=pattern
