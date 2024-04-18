@@ -23,6 +23,6 @@ app.UseMiddleware<ExceptionMiddleware>();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index/id?}"); //啟動MVC路由功能, 傳入的網址=pattern
+    pattern: "{controller=Home}/{action=Index}/{id?}"); //啟動MVC路由功能, 傳入的網址=pattern
 
 app.Run();

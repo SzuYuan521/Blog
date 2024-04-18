@@ -42,7 +42,7 @@ namespace Blog.Applications.ArticleService
         /// 取得需要編輯的文章列表
         /// </summary>
         /// <returns></returns>
-        Task<IList<ArticleViewModel>> GetUpdateArticleList();
+        Task<IList<UpdateArticleViewModel>> GetUpdateArticleList();
 
         /// <summary>
         /// 取得需要編輯的文章內容
