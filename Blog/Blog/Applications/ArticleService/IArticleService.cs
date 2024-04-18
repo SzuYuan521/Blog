@@ -50,5 +50,12 @@ namespace Blog.Applications.ArticleService
         /// <param name="id"></param>
         /// <returns></returns>
         Task<UpdateArticleViewModel> GetUpdateArticle(long id);
+
+        /// <summary>
+        /// 刪除文章
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        Task DeleteArticle(long id);
     }
 }

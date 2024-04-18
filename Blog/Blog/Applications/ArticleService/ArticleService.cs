@@ -111,5 +111,18 @@ namespace Blog.Applications.ArticleService
             }
             return data;
         }
+
+        public async Task DeleteArticle(long id)
+        {
+            var data = await _db.Articles
+                .Where(x => x.Id == id)
+                .FirstOrDefaultAsync();
+
+            if(data != null)
+            {
+                _db.Remove(data);
+                await _db.SaveChangesAsync();
+            }
+        }
     }
 }
