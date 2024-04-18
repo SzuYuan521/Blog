@@ -1,6 +1,338 @@
 {
   "Files": [
     {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\LICENSE.md",
+      "PackagePath": "staticwebassets\\ckeditor5\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\README.md",
+      "PackagePath": "staticwebassets\\ckeditor5\\README.md"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\ckeditor.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\ckeditor.d.ts"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\ckeditor.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\ckeditor.js.map",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\ckeditor.js.map"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\af.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\af.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\ar.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\ar.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\ast.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\ast.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\az.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\az.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\bg.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\bg.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\bn.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\bn.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\bs.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\bs.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\ca.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\ca.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\cs.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\da.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\de-ch.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\de-ch.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\de.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\el.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\en-au.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\en-au.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\en-gb.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\eo.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\es-co.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\es-co.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\es.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\es.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\et.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\eu.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\eu.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\fa.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\fi.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\fr.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\gl.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\gl.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\gu.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\gu.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\he.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\hi.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\hi.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\hr.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\hu.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\hu.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\hy.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\hy.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\id.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\id.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\it.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\ja.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\ja.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\jv.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\jv.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\km.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\km.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\kn.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\kn.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\ko.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\ko.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\ku.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\ku.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\lt.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\lt.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\lv.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\lv.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\ms.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\ms.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\nb.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\ne.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\ne.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\nl.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\no.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\oc.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\oc.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\pl.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\pl.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\pt.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\pt.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\ro.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\ro.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\ru.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\ru.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\si.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\si.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\sk.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\sk.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\sl.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\sl.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\sq.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\sq.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\sr-latn.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\sr-latn.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\sr.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\sr.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\sv.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\sv.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\th.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\th.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\tk.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\tk.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\tr.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\tt.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\tt.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\ug.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\uk.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\uk.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\ur.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\ur.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\uz.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\uz.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\vi.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\build\\translations\\zh.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\build\\translations\\zh.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\package.json",
+      "PackagePath": "staticwebassets\\ckeditor5\\package.json"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\sample\\index.html",
+      "PackagePath": "staticwebassets\\ckeditor5\\sample\\index.html"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\sample\\script.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\sample\\script.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\sample\\styles.css",
+      "PackagePath": "staticwebassets\\ckeditor5\\sample\\styles.css"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\src\\ckeditor.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\src\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\src\\ckeditor.js.map",
+      "PackagePath": "staticwebassets\\ckeditor5\\src\\ckeditor.js.map"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\src\\ckeditor.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\src\\ckeditor.ts"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\tsconfig.json",
+      "PackagePath": "staticwebassets\\ckeditor5\\tsconfig.json"
+    },
+    {
+      "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\ckeditor5\\webpack.config.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\webpack.config.js"
+    },
+    {
       "Id": "C:\\Blog\\Blog\\Blog\\Blog\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },

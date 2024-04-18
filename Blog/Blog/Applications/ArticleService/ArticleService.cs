@@ -25,9 +25,27 @@ namespace Blog.Applications.ArticleService
             await _db.SaveChangesAsync(); //更新資料表資料
         }
 
-        public Task<ImageUploadResponse> UploadImage(IFormFile upload)
+        public async Task<ImageUploadResponse> UploadImage(IFormFile upload)
         {
-            return null;
+            if (upload.Length <= 0) return null!;
+            var fileName = Guid.NewGuid() + Path.GetExtension(upload.FileName).ToLower();
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
+            using (var stream = File.Create(filePath))
+            {
+                //圖片存入本地的資料夾裡面
+                await upload.CopyToAsync(stream);
+            }
+
+            var url = $"{"/images/"}{fileName}";
+            var result = new ImageUploadResponse
+            {
+                Uploaded = 1,
+                FileName = fileName,
+                Url = url,
+                Msg = "success",
+            };
+
+            return result;
         }
 
         public async Task UpdateArticle(UpdateArticleViewModel model)

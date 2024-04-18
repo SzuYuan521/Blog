@@ -1,5 +1,33 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@using Blog.ViewModels.ArticleService
+@model UpdateArticleViewModel;
+
+<form method="post">
+    <div class="form-group">
+        <input asp-for="Id" class="form-control" hidden />
+
+        標題:
+        <input asp-for="Title" class="form-control" />
+
+        是否停用:
+        <input asp-for="IsDelete" type="checkbox" class="form-check-input" />
+
+        <textarea asp-for="ArticleContent" class="form-control" id="editor" style="width:700px;margin-right:auto;margin-left:auto;">@Model.ArticleContent</textarea>
+    </div>
+
+    <button asp-controller="Article" asp-action="UpdateArticle" type="submit">Send</button>
+</form>
+
+@section Script{
+    <script src="~/ckeditor5/build/ckeditor.js"></script>
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#editor'), {
+                ckfinder: {
+                    uploadUrl: '/ArticleUploads'
+                }
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
 }
