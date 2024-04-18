@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Blog.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Blog.DbAccess
 {
@@ -8,6 +9,9 @@ namespace Blog.DbAccess
         {
 
         }
+
+        public DbSet<Article> Articles { get; set; }
+        public DbSet<AuthUser> AuthUsers { get; set; }
 
         /// <summary>
         /// 將目前組件中定義的所有實體類型的配置應用到資料庫模型中，這樣就可以在資料庫中建立對應的表格及其詳細定義
